@@ -229,9 +229,11 @@ input[type=checkbox] {
   opacity: 1;
   right: 0;
 }
+
 .NONS h2{
   margin-top: 200px;
   font-size: 48px;
+  position: absolute;
 }
 .NONS h2 span{
   color: #58c2ff;
@@ -245,16 +247,20 @@ input[type=checkbox] {
   height: 380px;
   border-radius: 0px;
   margin-left: 1150px;
+  
+  position: absolute;
 }
 .Number1 p{
   font-family: 'League Spartan', sans-serif;
   margin-top: -350px;
   font-size: 18px;
   margin-left: 450px;
+  position: absolute;
 
 }
 .Number2 {
   margin-top: 250px;
+  position: absolute;
 
 }
 .Number2 img{
