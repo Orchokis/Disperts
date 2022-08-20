@@ -171,6 +171,7 @@ input[type=checkbox] {
   position: relative;
   margin-top: 120px;
   padding: none;
+  
 }
 .NONS H1{
   
@@ -237,6 +238,7 @@ input[type=checkbox] {
 }
 .Number1 {
   margin-top: 100px;
+  margin-left: 1000px;
 
 }
 .Number1 img{
