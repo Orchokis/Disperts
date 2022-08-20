@@ -1,4 +1,4 @@
-
+/* UTILITIES */
 @font-face{
   font-family: Nimbus;
   src: url(ArticulatCF-Bold.ttf);
@@ -198,7 +198,6 @@ input[type=checkbox] {
   font-size: 13px;
   padding: 20px;
   width: 250px;
-  height: 100px
   transition: all 1s;
   cursor: pointer;
   margin-top: 19px;
@@ -229,11 +228,9 @@ input[type=checkbox] {
   opacity: 1;
   right: 0;
 }
-
 .NONS h2{
   margin-top: 200px;
   font-size: 48px;
-  position: absolute;
 }
 .NONS h2 span{
   color: #58c2ff;
@@ -247,20 +244,16 @@ input[type=checkbox] {
   height: 380px;
   border-radius: 0px;
   margin-left: 1150px;
-  
-  position: absolute;
 }
 .Number1 p{
   font-family: 'League Spartan', sans-serif;
   margin-top: -350px;
   font-size: 18px;
   margin-left: 450px;
-  position: absolute;
 
 }
 .Number2 {
   margin-top: 250px;
-  position: absolute;
 
 }
 .Number2 img{
@@ -287,7 +280,7 @@ input[type=checkbox] {
   margin-left: 900px;
   margin-bottom: -30px;
   padding-left: 32px;
-  background-image: url(IMG/logo_white.png);
+  background-image: url(logo_white.png);
   background-position: 0px -6px;
   background-size: 30px;
   background-repeat: no-repeat;
