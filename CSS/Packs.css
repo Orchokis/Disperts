@@ -1,3 +1,10 @@
+@font-face{
+    font-family: Nimbus;
+    src: url(ArticulatCF-Bold.ttf);
+    font-family: 'League Spartan', sans-serif;
+    
+    
+  }
 body{
     margin: 0;
     padding: 0;
@@ -21,15 +28,15 @@ body{
     text-transform: uppercase;
     font-family: poppins;
     font-weight: bold;
-    text-align: center;
-    font-size: 60px;
+    text-align: left;
+   
     color: #fff;
     margin: 0;
 }
 .single-service {
 position: relative;
-width: 31%;
-height: 450px;
+width: 65%;
+height: 600px;
 background: #fff;
 box-sizing: border-box;
 padding: 0 15px;
@@ -40,6 +47,7 @@ margin: 0 10px;
 text-align: center;
 border-radius: 20px;
 margin-top: 70px;
+margin-left: 17%;
 
 }
 .line {
@@ -50,20 +58,53 @@ margin: 0 auto 60px auto;
 }
 .single-service p{            
     color:  #58c2ff;
+   text-align: left;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 65px;
+    margin-left: 30px;
 }
 .single-service h3 {
-    font-size: 25px;
+    font-size: 55px;
     text-transform: uppercase;
-    font-family: poppins;
+    font-family: Nimbus;
     letter-spacing: 1px;
     color: #58c2ff;
+    text-align: left;
+    margin-top: -105px;
+    margin-left: 30px; 
+    margin-bottom: 25px;
+   
+
+}.single-service h4 {
+    
+    text-transform: uppercase;
+    font-family: Nimbus;
+    letter-spacing: 1px;
+    color: #58c2ff;
+    text-align: left;
+    margin-top: -19px;
+    margin-left: 30px; 
+  
+   
+
+}
+.single-service h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: Nimbus;
+    letter-spacing: 1px;
+    color: #58c2ff;
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 30px; 
+    margin-bottom: -15px;
+   
+
 }
 .social {
 width: 60px;
 height: 60px;
-background: #58c2ff;
+background: #ffffff;
 border-radius: 50%;
 margin: 5% auto;
 }
@@ -105,22 +146,16 @@ font-size: 30px;
 .ul{
     font-family: 'League Spartan', sans-serif;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 30px;
     margin-bottom: -30px;
     padding-left: 2px;
-    background-image: url(logo\ new.png);
-    background-position: 0px -6px;
+    background-image: url(IMG/logo_new.png);
+    background-position: 0px 6px;
     background-size: 30px;
     background-repeat: no-repeat;
     color: #58c2ff;
     position: relative;
+    text-align: left;
     
   }
 
-  .image {
-    margin-left:15px; ;
-    margin-bottom: 24px;
-    border-radius: 8px;
-    box-shadow: 1px 1px 20px 0 rgba(255, 46, 190, 0.15);
-    
-  }
